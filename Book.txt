@@ -1,0 +1,10 @@
+1~1~1~1~1~1~Car~67.0
+abdu~0993174585~maajidawol@gmail.com~3~1~4~Air~777.0
+adane~000~Adanemoges6@gmail.com~3~1~8~Car~1545.0
+abdu~1~1~1~1~1~Air~67.0
+abdu~1~1~1~1~1~Air~67.0
+Teacher~00000~~2~Adama~2~Air~6580.0
+Teacher~00000~~2~Adama~2~Air~6580.0
+AA~000~meridnigu@gmail.com~2~Adama~4~Car~10760.0
+ab~000~maajidawol@gmail.com~4~Adama~67~Car~284860.0
+ephrata~000000~ephratamalaku@gmail.com~2~Adama~3~Car~8670.0

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_traveling.all_order">
+   <children>
+      <HBox prefHeight="500.0" prefWidth="750.0">
+         <children>
+             <AnchorPane prefHeight="200.0" prefWidth="250.0" style="-fx-background-color: pink;">
+                 <children>
+                     <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                         <image>
+                             <Image url="@image/pngkit_admin-png_2636288.png" />
+                         </image>
+                     </ImageView>
+                     <Label alignment="CENTER" layoutX="67.0" layoutY="190.0" prefHeight="21.0" prefWidth="99.0" text="ADMIN" textFill="#0816d4">
+                         <font>
+                             <Font size="17.0" />
+                         </font>
+                     </Label>
+                     <Button layoutX="46.0" layoutY="237.0" mnemonicParsing="false" onAction="#adddestination" prefHeight="25.0" prefWidth="157.0" text="ADD DESTINATION" />
+                     <Button layoutX="46.0" layoutY="274.0" mnemonicParsing="false" onAction="#displaydest" prefHeight="25.0" prefWidth="157.0" text="DISPLAY DESTINATION" />
+                     <Button layoutX="46.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" text="DISPLAY ORDER" />
+                     <Button fx:id="backhome" layoutX="50.0" layoutY="434.0" mnemonicParsing="false" onAction="#backhome" prefHeight="25.0" prefWidth="150.0" text="BACK HOME" />
+                 </children>
+             </AnchorPane>
+             <AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: gray;">
+                 <TableView fx:id="customers" layoutY="50.0" prefHeight="450.0" prefWidth="500.0">
+                     <columns>
+                         <TableColumn fx:id="custname" prefWidth="175.33328247070312" text="Customer Name" />
+                         <TableColumn fx:id="custphone" prefWidth="115.3333740234375" text="Phone" />
+                         <TableColumn fx:id="custemail" minWidth="0.0" prefWidth="118.00006103515625" text="Email" />
+                         <TableColumn fx:id="custtotal" prefWidth="89.33331298828125" text="Total " />
+                     </columns>
+                 </TableView>
+               <Label alignment="CENTER" layoutX="42.0" layoutY="14.0" prefHeight="28.0" prefWidth="401.0" text="ALL BOOKING CURRENTLY AVAILABLE" textFill="#181080">
+                  <font>
+                     <Font size="19.0" />
+                  </font>
+               </Label>
+             </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
