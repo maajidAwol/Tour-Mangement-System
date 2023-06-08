@@ -7,8 +7,8 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 public class Mail {
     static void send_email(String to,String body){
-        final String username = "tourmanagementsystemseca@gmail.com";
-        final String password = "jqmpxddbbzvflqgj";
+        final String username = "senderemail@gmail.com";
+        final String password = "security key for less secure app";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
