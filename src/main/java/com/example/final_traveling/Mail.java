@@ -27,7 +27,7 @@ public class Mail {
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("tourmanagementsystemseca@gmail.com"));
+            message.setFrom(new InternetAddress("senderemail@gmail.com"));
             message.setRecipients(
                     Message.RecipientType.TO,
                     InternetAddress.parse(to)
